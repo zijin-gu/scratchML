@@ -28,7 +28,7 @@ class LinearRegression():
 		y_pred = self.predict(self.X)
 
 		grad_W = -2 * self.X.T * (self.y - y_pred) / self.n_samples
-		grad_b = -2 * (sum(self.y - y_pred)) / self.n_samples
+		grad_b = -2 * (np.sum(self.y - y_pred)) / self.n_samples
 
 		self.W = self.W - self.lr * grad_W
 		self.b = self.b - self.lr * grad_b
