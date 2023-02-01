@@ -1,7 +1,7 @@
 # Logistic Regression
 import numpy as np
 
-class LogisticRegression():
+class LogisticRegression:
 	def __init__(self, epoch, lr):
 
 		self.epoch = epoch
