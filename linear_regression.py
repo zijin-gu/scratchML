@@ -3,7 +3,7 @@ import numpy as np
 import copy
 
 # (1) Optimize via gradient descent
-class LinearRegression():
+class LinearRegression:
 
 	def __init__(self, epoch, lr):
 
