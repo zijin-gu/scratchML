@@ -24,7 +24,7 @@ def kNNClassifier:
 	def predict(self, X_test):
 
 		self.X_test = X_test
-		self.n_test = X.X_test.shape[0]
+		self.n_test = X_test.shape[0]
 		y_pred = np.zeros(self.n_test)
 
 		for i, test_sample in enumerate(X_test):
